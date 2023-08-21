@@ -1,0 +1,123 @@
+//Loop in C#
+
+            //for Loop
+            //while Loop
+            // Do While Loop
+
+            // Increment 
+            for (int i = 1;i<=10;i++)
+            {   
+                  Console.WriteLine(i);
+            }
+           
+            // Decrement Loop
+            for (int i = 10; i >= 1; i--)
+            {
+                Console.WriteLine(i);
+            }
+            
+            //Condition With loop
+            for (int i = 1; i <= 10; i++)
+            {
+                if (i == 4 || i==6)
+                {
+                    continue;
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+                
+            }
+            // Break With loop
+            for (int i = 1; i <= 10; i++)
+            {
+                if (i == 6)
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine(i);
+                }
+
+            }
+            
+
+            // NEsted For
+            for (int i = 1; i < 3; i++) // Outer Loop
+            {
+                for (int j =1;j<=5;j++) // Inner Loop
+                {
+                    Console.WriteLine(i + " " + j);
+                }
+
+            }
+
+            
+            *
+            **
+            ***
+            ****
+            *****
+            //Print Star Using Nested Loop
+            for (int i = 1; i <=5; i++) // Outer Loop
+            {
+                for (int j = 1; j <= i; j++) // Inner Loop
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+
+            }
+           *****
+           ****
+           ***
+           **
+           *
+             
+
+           
+            for (int i = 5; i >= 1; i--) // Outer Loop
+            {
+                for (int j = 1; j <= i; j++) // Inner Loop
+                {
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+
+            }
+            
+
+
+            int i = 1;
+            while (i<=5)
+            {
+                Console.WriteLine(i);
+
+                i++;
+            }
+
+            
+
+            int i = 1;
+            while (i <= 10)
+            {
+                Console.WriteLine(i);
+                
+                //i ++;
+                i +=2;
+            }
+            
+            int i = 1;
+            do
+            {
+                Console.WriteLine("Welcome No"+i);
+                i++;
+            } while (i<=5);
+
+            for(int i = 1; i <=10; i++)
+            {
+             Console.WriteLine(i)
+            }
+            */
